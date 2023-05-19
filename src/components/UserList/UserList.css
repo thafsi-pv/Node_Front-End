@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    background-color:#535151b1;
+    color: rgb(155, 153, 153);
+    border-radius: 10px;
+    width: 400px;
+}
+.counter-container{
+    max-height: 600px;
+}
+
+.node-input-container{
+    max-width: 100% !important;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+button{
+    
+    width: 94%;
+}
+
+ol{
+    height: 200px;
+    overflow-y: scroll;
+    margin: 20px;
+    text-align: left;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ margin-top: 5px;
+}
+.user p{
+    margin: 0;
+}
+
+input, select {
+    padding: 8px;
+    background-color: rgb(126, 125, 125);
+    border-radius: 5px;
+    color: rgb(243, 243, 243);
+    width: 100%;
+    border:none;
+    outline: none;
+}
